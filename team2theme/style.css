@@ -1,5 +1,5 @@
 /*
-Theme Name: Gurpreet Theme
+Theme Name: Car Mechanic Theme
 Version: 1.0
 Author: You
 Author URI: Your website address.
@@ -13,8 +13,8 @@ html
 
 body
 { font: normal .80em 'trebuchet ms', arial, sans-serif;
-  background: #FFF;
-  color: #555;}
+  background:#cce0ff;
+  color: black;}
 
 p
 { padding: 0 0 20px 0;
@@ -102,7 +102,7 @@ ol li
   margin-right: auto;}
 
 #header
-{ background: #1d1d1d url(pattern.png) repeat;
+{ background: #003d99 url(pattern.png) repeat;
   border-bottom: 2px solid #E7746F;
   height: 177px;}
   
@@ -111,7 +111,7 @@ ol li
   width: 870px;
   height: 180px;
   margin-bottom: 20px;
-  border: 5px solid #E7746F;}
+  border: 5px solid #003d99;}
 
 #logo
 { width: 880px;
@@ -179,15 +179,15 @@ ul#menu li.selected a
 
 ul#menu li.selected
 { margin: 1px 2px 0 0;
-  background: #E7746F;}
+  background: #66a3ff;}
 
 ul#menu li.selected a, ul#menu li.selected a:hover
-{ background: #E7746F;
+{ background:#66a3ff ;
   color: #FFF;}
 
 ul#menu li a:hover
 { color: #FFF;
-  background: #E7746F;}
+  background: #66a3ff;}
 
 #site_content
 { width: 880px;
