@@ -4,6 +4,7 @@
 	<?php get_sidebar(); ?>
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css" type="text/css" media="screen" />
 	<div id="content">
+
 	<section>
 	<?php if ( have_posts() ) : ?>
 	<?php while ( have_posts() ) : the_post(); ?>
@@ -18,6 +19,7 @@
        <?php the_content(); ?>
        <?php edit_post_link(); ?>
        <?php wp_link_pages(); ?> </div>
+	  
     <!--end entry-->
     <div class="post-footer">
        <div class="comments"><?php comments_popup_link( 'Leave a Comment', '1 Comment', '% Comments' ); ?></div>

@@ -13,7 +13,7 @@ html
 
 body
 { font: normal .80em 'trebuchet ms', arial, sans-serif;
-  background:#cce0ff;
+  background:white;
   color: black;}
 
 p
@@ -24,7 +24,7 @@ img
 { border: 0;}
 
 h1, h2, h3, h4, h5, h6 
-{ color: #E7746F;
+{ color: blue;
   letter-spacing: 0em;
   padding: 0 0 5px 0;}
 
@@ -218,10 +218,19 @@ ul#menu li a:hover
 .sidebar_item
 { background: url(side_back.png) repeat-y;
   padding: 0 15px;
+  font-size: 20px;
+  width: 192px;}
+  
+  .sidebar_item1
+{ background: url(side_back.png) repeat-y;
+  padding: 0 15px;
   width: 192px;}
 
 .sidebar li a.selected
-{ color: #444;} 
+ 
+{ color: #444;
+
+} 
 
 .sidebar ul
 { margin: 0;} 
@@ -251,18 +260,18 @@ ul#menu li a:hover
   text-align: center; 
   background: transparent url(pattern.png) repeat;
   border-top: 2px solid #E7746F;
-  color: #FFF;}
+  color: black;}
 
 #footer p
 { line-height: 1.7em;
   padding: 0 0 10px 0;}
 
 #footer a
-{ color: #E7746F;
+{ color: black;
   text-decoration: none;}
 
 #footer a:hover
-{ color: #FFF;
+{ color: blue;
   text-decoration: none;}
 
 .search
@@ -336,3 +345,14 @@ table tr td
 { background: #E5E5DB;
   color: #47433F;
   border-top: 1px solid #FFF;}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
