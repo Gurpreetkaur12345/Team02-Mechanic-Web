@@ -3,31 +3,29 @@
 	  <div id="sidebar_container">
         <div class="sidebar">
           <div class="sidebar_top"></div>
+		  
           <div class="sidebar_item">
             <!-- insert your sidebar items here -->
-            <h3>Latest News</h3>
-            <h4>New Website Launched</h4>
-            <h5>June 1st, 2014</h5>
-            <p>2014 sees the redesign of our website. Take a look around and let us know what you think.<br /><a href="#">Read more</a></p>
+            <h3>Fuel Price</h3>
+            <p>AUD 1.36/litre</p>
+			<?php edit_post_link(); ?>
+			<?php wp_link_pages(); ?> 
           </div>
           <div class="sidebar_base"></div>
         </div>
         <div class="sidebar">
           <div class="sidebar_top"></div>
-          <div class="sidebar_item">
-            <h3>Useful Links</h3>
-            <ul>
-              <li><a href="#">link 1</a></li>
-              <li><a href="#">link 2</a></li>
-              <li><a href="#">link 3</a></li>
-              <li><a href="#">link 4</a></li>
-            </ul>
+          <div class="sidebar_item1">
+            <h3>For Appointment</h3>
+			
+			<input type="submit"  name="submit" value="Book Now">
+            
           </div>
           <div class="sidebar_base"></div>
         </div>
         <div class="sidebar">
           <div class="sidebar_top"></div>
-          <div class="sidebar_item">
+          <div class="sidebar_item1">
             <h3>Search</h3>
             <form method="post" action="#" id="search_form">
               <p>
