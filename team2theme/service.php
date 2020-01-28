@@ -1,9 +1,7 @@
-    <?php get_header(); ?>
-	
-	
-	<?php get_sidebar(); ?>
-	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css" type="text/css" media="screen" />
-	<div id="content">
+
+<?php include_once('header.php');?>
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css" type="text/css" media="screen" />
+
 
 	<section>
 	<?php if ( have_posts() ) : ?>
