@@ -19,6 +19,8 @@
             <h3>For Appointment</h3>
 			
 			<input type="submit"  name="submit" value="Book Now">
+			<?php edit_post_link(); ?>
+			<?php wp_link_pages(); ?> 
             
           </div>
           <div class="sidebar_base"></div>
