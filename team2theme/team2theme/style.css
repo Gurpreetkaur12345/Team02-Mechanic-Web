@@ -107,11 +107,16 @@ ol li
   height: 200px;}
   
 #banner
-{ background: transparent url(banner.jpg) no-repeat;
+{ background: transparent url(banner.jpg); width:100%; height:100%; ;
   width: 870px;
   height: 180px;
   margin-bottom: 20px;
   border: 5px solid #003d99;}
+
+img {
+  width: 200px;
+  height: 400px;
+}
 
 #logo
 { width: 880px;
