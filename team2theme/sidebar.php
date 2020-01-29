@@ -3,8 +3,8 @@
 	  <div id="sidebar_container">
         <div class="sidebar">
           <div class="sidebar_top"></div>
-		  
-          <div class="sidebar_item">
+      
+                    <div class="sidebar_item">
             <!-- insert your sidebar items here -->
             <h3>Fuel Price</h3>
             <p>AUD 1.36/litre</p>
