@@ -4,8 +4,7 @@
 
 
 <?php get_header(); ?>
-	
-	
+		
 <div class="ct-pageWrapper" id="ct-js-wrapper">
   <section class="company-heading intro-type" id="parallax-one">
     <div class="mechanic">
